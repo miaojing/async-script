@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" type="text/css" href="https://g.alicdn.com/tb-mod/??tb-pad/6.2.0/index.css,tb-sitenav/6.2.0/index.css,tb-sysinfo/6.2.0/index.css,tb-sysbanner/6.2.0/index.css,tb-banner/6.2.0/index.css,tb-birthday/6.2.1/index.css,tb-search/6.2.6/index.css,tb-logo/6.2.0/index.css,tb-qr/6.2.0/index.css,tb-nav/6.2.0/index.css,tb-tanx/6.2.0/index.css,tb-promo/6.2.3/index.css,tb-tmall/6.2.0/index.css,tb-notice/6.2.0/index.css,tb-member/6.2.0/index.css,tb-headlines/6.2.0/index.css,tb-conve/6.2.0/index.css,tb-belt/6.2.0/index.css,tb-belt-slide/6.2.0/index.css,tb-double12-belt/6.2.1/index.css,tb-apps/6.2.0/index.css,tb-feature/6.2.0/index.css,tb-discover-goods/6.2.0/index.css,tb-footprint/6.2.1/index.css,tb-discover-shop/6.2.0/index.css,tb-custom/6.2.0/index.css,tb-sale/6.2.0/index.css,tb-hotsale/6.2.5/index.css,tb-helper/6.2.0/index.css,tb-footer/6.2.0/index.css,tb-decorations/6.2.5/index.css,tb-fixedtool/6.2.0/index.css,tb-inject/6.2.1/index.css,tb-service/6.2.0/index.css,tb-cat/6.2.0/index.css,tb-rmdimg/6.2.0/index.css,tb-market-ifashion/6.2.0/index.css,tb-market/6.2.0/index.css,tb-market2/6.2.0/index.css,tb-market-electronic/6.2.0/index.css,tb-market-diet/6.2.0/index.css,tb-oead/6.2.0/index.css,tb-market-furniture/6.2.0/index.css,tb-market-pannel/6.2.0/index.css,tb-channel/6.2.0/index.css,tb-channel-travel/6.2.0/index.css,tb-guang/6.2.0/index.css,tb-channel2/6.2.0/index.css,tb-channel-edu/6.2.0/index.css">
+    
+    <style>
+        div {
+
+            width: 100px;
+            height: 100px;
+            background: #00ff00;
+            font-size: 24px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>script inject</h1>
+    <p>dom ready</p>
+    <div id="J_DomReady">show</div>
+    <p>load finish</p>
+    <div id="J_LoadFinish">show</div>
+    <a href="./">返回</a>
+
+    <script>
+        var timesnipe = performance.now();
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('J_DomReady').innerHTML = performance.now() - timesnipe;
+        }, false);
+
+        window.addEventListener('load', function() {
+            document.getElementById('J_LoadFinish').innerHTML = performance.now() - timesnipe;
+        }, false);
+    </script>
+
+    
+
+    <script async src="https://g.alicdn.com/tb-mod/??tb-pad/6.2.0/index.js,tb-sitenav/6.2.0/index.js,tb-sysinfo/6.2.0/index.js,tb-sysbanner/6.2.0/index.js,tb-banner/6.2.0/index.js,tb-birthday/6.2.1/index.js,tb-search/6.2.6/index.js,tb-logo/6.2.0/index.js,tb-qr/6.2.0/index.js,tb-nav/6.2.0/index.js,tb-tanx/6.2.0/index.js,tb-promo/6.2.3/index.js,tb-tmall/6.2.0/index.js,tb-notice/6.2.0/index.js,tb-member/6.2.0/index.js,tb-headlines/6.2.0/index.js,tb-conve/6.2.0/index.js,tb-belt/6.2.0/index.js,tb-belt-slide/6.2.0/index.js,tb-double12-belt/6.2.1/index.js,tb-apps/6.2.0/index.js,tb-feature/6.2.0/index.js,tb-discover-goods/6.2.0/index.js,tb-footprint/6.2.1/index.js,tb-discover-shop/6.2.0/index.js,tb-custom/6.2.0/index.js,tb-sale/6.2.0/index.js,tb-hotsale/6.2.5/index.js,tb-helper/6.2.0/index.js,tb-footer/6.2.0/index.js,tb-decorations/6.2.5/index.js,tb-fixedtool/6.2.0/index.js,tb-inject/6.2.1/index.js,tb-service/6.2.0/index.js,tb-cat/6.2.0/index.js,tb-rmdimg/6.2.0/index.js,tb-market-ifashion/6.2.0/index.js,tb-market/6.2.0/index.js,tb-market2/6.2.0/index.js,tb-market-electronic/6.2.0/index.js,tb-market-diet/6.2.0/index.js,tb-oead/6.2.0/index.js,tb-market-furniture/6.2.0/index.js,tb-market-pannel/6.2.0/index.js,tb-channel/6.2.0/index.js,tb-channel-travel/6.2.0/index.js,tb-guang/6.2.0/index.js,tb-channel2/6.2.0/index.js,tb-channel-edu/6.2.0/index.js"></script>
+      
+      <script async src="https://g.alicdn.com/??kg/cowboy/6.0.2/mods/ald-min.js,kg/cowboy/6.0.2/mods/market-min.js,kg/cowboy/6.0.2/mods/oead-min.js,kg/cowboy/6.0.2/mods/reporter-min.js,kg/cowboy/6.0.2/mods/rmdimg-min.js,kg/cowboy/6.0.2/mods/rmdlink-min.js,kg/cowboy/6.0.2/mods/tanx-min.js,kg/cowboy/6.0.2/mods/utils-min.js,kg/cowboy/6.0.2/mods/webp-min.js,tb-page/tbindex/6.0.32/index-min.js"></script>
+        
+</body>
+</html>
